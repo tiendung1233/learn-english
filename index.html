@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Learning App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Learn English Vocabulary</h1>
+
+    <!-- Dropdown để chọn chủ đề -->
+    <div class="topic-selector">
+      <label for="topics">Choose a Topic:</label>
+      <select id="topics"></select>
+    </div>
+
+    <!-- Hiển thị từ vựng hiện tại và nhập từ người dùng -->
+    <div id="learning-section">
+      <h2 id="vietnamese-word">...</h2>
+      <input type="text" id="english-input" placeholder="Enter English word">
+      <button id="check-word">Check</button>
+      <p id="result-message"></p>
+    </div>
+
+    <!-- Hiển thị toàn bộ từ vựng theo chủ đề -->
+    <div id="show-words-section">
+      <button id="show-all-words">Show All Words</button>
+      <ul id="word-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

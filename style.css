@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#learning-section {
+  margin-top: 20px;
+}
+
+#vietnamese-word {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#english-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#result-message {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#word-list {
+  list-style: none;
+  padding: 0;
+}
+
+#word-list li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
