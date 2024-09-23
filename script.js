@@ -8,6 +8,7 @@ const vocabularyLibrary = {
   "Animals": [
     { "english": "cat", "vietnamese": "mèo" },
     { "english": "dog", "vietnamese": "chó" },
+    { "english": "chicken", "vietnamese": "gà" },
     { "english": "elephant", "vietnamese": "voi" }
   ]
 };
